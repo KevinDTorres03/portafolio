@@ -1,0 +1,96 @@
+body{
+    background-image: url(https://www.wallpapertip.com/wmimgs/9-91130_690857-title-man-made-sticker-bomb-sticker-wallpaper.jpg);
+    overflow-x:hidden;
+}
+.head{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    display: flex;
+    background-color: rgba(184, 184, 184, 0.979);
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: rgb(0, 0, 0) 2px 2px 6px;
+    z-index: 101;
+}.logos{
+    width:30%;
+    display: flex;
+}.logos img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 120px;
+    height: 100px;
+}.bar-search{
+    width:40%;
+}.bar-search img{
+    height: 17px;
+    width: 17px;
+    position: relative;
+    margin-left: -35px;
+    cursor: pointer;
+    z-index: 100;
+}.bar-search input{
+    margin-top: 8%;
+    margin-left: 5%;
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 80%;
+    height: 35px;
+}a{
+    margin-top: 12%;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.options{
+    display:flex;
+    width:30%;
+    padding-right: -600px;
+}.options img{
+    margin-right: -100px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.center{
+    display: flex;
+}
+.contenedor{
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 1px solid black;
+    width: 25%;
+    padding-bottom: 20px;
+    background-color: #001ea1e7;
+    border-radius: 7px;
+    box-shadow: rgb(0, 0, 0) 2px 2px 6px;
+    transform: scale(100%);
+    transition-duration: 0.4s;
+}.contenedor img{
+    border: 1px solid black;
+    width: 70%;
+    border-radius: 5px;
+    box-shadow: rgba(252, 252, 252, 0.507) 5px 3px 10px;
+}.contenedor:hover{
+    width: 35%;
+    z-index: 100;
+    transform: scale(110%);
+    transition-duration: 0.4s;
+    background-color: #001da1;
+}.contenedor button{
+    padding: 10px 25px 10px 25px;
+    margin-left: 10px;
+    margin-top: 15px;
+}.color-font{
+    color: aliceblue;
+}
+
+.video{
+    margin-top: 300px;
+    width: 500px;
+    height: 500px;
+    margin-left: 300px;
+}
